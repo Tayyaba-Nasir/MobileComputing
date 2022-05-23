@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityQ">
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="209dp"
+        android:layout_height="188dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image21" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="157dp"
+        android:layout_height="179dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="9dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView35"
+        app:srcCompat="@drawable/queen" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="189dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="18dp"
+        android:text="Queen"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView36" />
+</androidx.constraintlayout.widget.ConstraintLayout>

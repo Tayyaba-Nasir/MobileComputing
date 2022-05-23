@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityL">
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="275dp"
+        android:layout_height="228dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image16" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="220dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="72dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25"
+        app:srcCompat="@drawable/lemon" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="189dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="23dp"
+        android:text="Lemon"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26" />
+</androidx.constraintlayout.widget.ConstraintLayout>

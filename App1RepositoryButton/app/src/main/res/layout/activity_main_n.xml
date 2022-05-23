@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityN">
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="254dp"
+        android:layout_height="183dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image18" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="258dp"
+        android:layout_height="215dp"
+        android:layout_marginStart="65dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView29"
+        app:srcCompat="@drawable/nest" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="177dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="23dp"
+        android:text="Nest"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView30" />
+</androidx.constraintlayout.widget.ConstraintLayout>
