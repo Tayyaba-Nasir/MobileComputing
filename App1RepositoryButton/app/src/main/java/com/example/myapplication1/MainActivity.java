@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button button,learning,exam;
+    Button button,learning,exam,customizedLearn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         button = findViewById(R.id.button);
         learning = findViewById(R.id.learning);
         exam = findViewById(R.id.exam);
+        customizedLearn = findViewById(R.id.customizedLearn);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,7 +40,14 @@ public class MainActivity extends AppCompatActivity {
         exam.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,MainActivityExam.class);
+                Intent intent = new Intent(MainActivity.this, MainActivity4.class);
+                startActivity(intent);
+            }
+        });
+        customizedLearn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,MainActivity5.class);
                 startActivity(intent);
             }
         });

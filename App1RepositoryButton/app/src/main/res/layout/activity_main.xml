@@ -11,11 +11,11 @@
         android:layout_width="170dp"
         android:layout_height="58dp"
         android:layout_marginStart="155dp"
-        android:layout_marginTop="292dp"
+        android:layout_marginTop="220dp"
         android:layout_marginEnd="162dp"
         android:text="Exam"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,11 +24,11 @@
         android:layout_width="170dp"
         android:layout_height="58dp"
         android:layout_marginStart="155dp"
-        android:layout_marginTop="204dp"
+        android:layout_marginTop="152dp"
         android:layout_marginEnd="162dp"
         android:text="Learn Lesson"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,11 +37,11 @@
         android:layout_width="170dp"
         android:layout_height="58dp"
         android:layout_marginStart="155dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="84dp"
         android:layout_marginEnd="162dp"
         android:text="Repository Link"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -50,14 +50,27 @@
         android:layout_width="235dp"
         android:layout_height="53dp"
         android:layout_marginStart="88dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="88dp"
         android:text="MyApp"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/customizedLearn"
+        android:layout_width="170dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="121dp"
+        android:text="Customized List"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exam" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

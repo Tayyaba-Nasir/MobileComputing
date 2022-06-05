@@ -45,6 +45,7 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","A");
                 startActivity(intent);
             }
         });
@@ -52,7 +53,8 @@ public class MainActivity2 extends AppCompatActivity {
         B.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityB.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","B");
                 startActivity(intent);
             }
         });
@@ -60,7 +62,8 @@ public class MainActivity2 extends AppCompatActivity {
         C.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityC.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","C");
                 startActivity(intent);
             }
         });
@@ -68,7 +71,8 @@ public class MainActivity2 extends AppCompatActivity {
         D.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityD.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","D");
                 startActivity(intent);
             }
         });
@@ -76,7 +80,8 @@ public class MainActivity2 extends AppCompatActivity {
         E.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityE.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","E");
                 startActivity(intent);
             }
         });
@@ -84,7 +89,8 @@ public class MainActivity2 extends AppCompatActivity {
         F.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityF.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","F");
                 startActivity(intent);
             }
         });
@@ -92,7 +98,8 @@ public class MainActivity2 extends AppCompatActivity {
         G.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityG.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","G");
                 startActivity(intent);
             }
         });
@@ -100,7 +107,8 @@ public class MainActivity2 extends AppCompatActivity {
         H.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityH.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","H");
                 startActivity(intent);
             }
         });
@@ -108,7 +116,8 @@ public class MainActivity2 extends AppCompatActivity {
         I.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityI.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","I");
                 startActivity(intent);
             }
         });
@@ -116,7 +125,8 @@ public class MainActivity2 extends AppCompatActivity {
         J.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityJ.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","J");
                 startActivity(intent);
             }
         });
@@ -124,7 +134,8 @@ public class MainActivity2 extends AppCompatActivity {
         K.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityK.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","K");
                 startActivity(intent);
             }
         });
@@ -132,7 +143,8 @@ public class MainActivity2 extends AppCompatActivity {
         L.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityL.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","L");
                 startActivity(intent);
             }
         });
@@ -140,7 +152,8 @@ public class MainActivity2 extends AppCompatActivity {
         M.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityM.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","M");
                 startActivity(intent);
             }
         });
@@ -148,7 +161,8 @@ public class MainActivity2 extends AppCompatActivity {
         N.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityN.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","N");
                 startActivity(intent);
             }
         });
@@ -156,7 +170,8 @@ public class MainActivity2 extends AppCompatActivity {
         O.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityO.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","O");
                 startActivity(intent);
             }
         });
@@ -164,7 +179,8 @@ public class MainActivity2 extends AppCompatActivity {
         P.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityP.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","P");
                 startActivity(intent);
             }
         });
@@ -172,7 +188,8 @@ public class MainActivity2 extends AppCompatActivity {
         Q.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityQ.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","Q");
                 startActivity(intent);
             }
         });
@@ -180,7 +197,8 @@ public class MainActivity2 extends AppCompatActivity {
         alphabetR.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityR.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","R");
                 startActivity(intent);
             }
         });
@@ -188,7 +206,8 @@ public class MainActivity2 extends AppCompatActivity {
         S.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityS.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","S");
                 startActivity(intent);
             }
         });
@@ -196,7 +215,8 @@ public class MainActivity2 extends AppCompatActivity {
         T.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityT.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","T");
                 startActivity(intent);
             }
         });
@@ -204,7 +224,8 @@ public class MainActivity2 extends AppCompatActivity {
         U.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityU.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","U");
                 startActivity(intent);
             }
         });
@@ -212,7 +233,8 @@ public class MainActivity2 extends AppCompatActivity {
         V.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityV.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","V");
                 startActivity(intent);
             }
         });
@@ -220,7 +242,8 @@ public class MainActivity2 extends AppCompatActivity {
         W.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityW.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","W");
                 startActivity(intent);
             }
         });
@@ -228,7 +251,8 @@ public class MainActivity2 extends AppCompatActivity {
         X.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityX.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","X");
                 startActivity(intent);
             }
         });
@@ -236,7 +260,8 @@ public class MainActivity2 extends AppCompatActivity {
         Y.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityY.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","Y");
                 startActivity(intent);
             }
         });
@@ -244,7 +269,8 @@ public class MainActivity2 extends AppCompatActivity {
         Z.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this,MainActivityZ.class);
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                intent.putExtra("alphabet","Z");
                 startActivity(intent);
             }
         });
